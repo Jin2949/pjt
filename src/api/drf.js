@@ -11,7 +11,7 @@ export default {
     signup: () => HOST + ACCOUNTS + 'signup/',
     
     currentUserInfo: () => HOST + ACCOUNTS + 'user/',
-    profile: username => HOST + ACCOUNTS + 'profile/' + username,
+    profile: username => HOST + ACCOUNTS + 'profile/' + username + '/',
     
     ranking: () => HOST + ACCOUNTS + 'ranking/',
     score: () => HOST + ACCOUNTS + 'score/',
